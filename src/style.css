@@ -1,0 +1,11 @@
+:root {
+    --bgColor: purple;
+    --headingColor: #fff;
+}
+body {
+    background-color: var(--bgColor);
+
+    & h1 {
+        color: var(--headingColor);
+    }
+}

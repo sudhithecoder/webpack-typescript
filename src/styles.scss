@@ -1,14 +1,8 @@
 $heading-Bgcolor: #c6538c;
 
-:root{
-    --bgColor:purple;
-    --headingColor:#fff
-}
 body{
-    background-color: var(--bgColor);
 
     h1 {
         background-color: $heading-Bgcolor;
-        color:var(--headingColor);
     }
 }
