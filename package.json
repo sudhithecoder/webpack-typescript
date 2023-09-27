@@ -1,0 +1,23 @@
+{
+  "name": "webpack-typescript",
+  "version": "1.0.0",
+  "description": "Basic Webpack setup using Typescript and simple webpage",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack",
+    "build:watch": "npx webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.68.0",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
