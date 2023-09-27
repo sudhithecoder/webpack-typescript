@@ -1,8 +1,37 @@
 $heading-Bgcolor: #c6538c;
+$whiteColor: #fff;
+$aqua: aquamarine;
 
-body{
-
+body {
+    font-size: 16px;
     h1 {
         background-color: $heading-Bgcolor;
+        text-align: center;
+        text-wrap: balance;
+    }
+
+    #users {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 0.2rem;
+    }
+
+    .user-container {
+        background-color: $whiteColor;
+        padding: 10%;
+        border: 1px solid black;
+        box-shadow: 5px 5px 5px $whiteColor;
+    }
+
+    .user-container:hover {
+        background-color: $aqua;
+        box-shadow: 1px 1px 1px $whiteColor;
+        border: 0px solid $whiteColor;
     }
 }
+
+// @media screen and (width<700px) {
+//     body {
+//         font-size: 12px;
+//     }
+// }
